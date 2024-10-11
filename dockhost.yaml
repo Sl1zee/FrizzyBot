@@ -12,4 +12,4 @@ repositories:
 
         cpu: 1
         cpuFraction: 20
-        memory: 256MiB
+        memory: 512MiB
