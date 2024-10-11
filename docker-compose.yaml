@@ -1,0 +1,8 @@
+services:
+
+    app:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        environment:
+            TOKEN: 7939166697:AAFSCxD1ruXcbmYGcO4bEFCMnVl2MyK7R7U
