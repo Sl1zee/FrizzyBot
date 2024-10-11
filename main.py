@@ -2,7 +2,6 @@ import telebot
 from telebot import types
 
 bot = telebot.TeleBot('7939166697:AAFSCxD1ruXcbmYGcO4bEFCMnVl2MyK7R7U')
-bot.set_webhook()
 
 @bot.message_handler(commands=['start'])
 def start(message):
