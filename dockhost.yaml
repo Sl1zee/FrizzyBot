@@ -1,9 +1,9 @@
 version: 1
-project: echobot
+project: frizzyshop
 
 repositories:
 
-    echobot:
+    frizzyshop:
 
         url: https://github.com/Sl1zee/FrizzyBot.git
         branch: main
