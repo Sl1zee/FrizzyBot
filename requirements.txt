@@ -1,6 +1,5 @@
+certifi==2024.8.30
+charset-normalizer==3.4.0
+idna==3.10
+pyTelegramBotAPI==4.23.0
 urllib3==2.2.3
-asttokens==2.4.1
-attrs==24.2.0
-backcall==0.2.0
-beautifulsoup4==4.12.3
-bleach==6.1.0
