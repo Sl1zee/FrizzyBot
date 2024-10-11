@@ -5,7 +5,7 @@ repositories:
 
     echobot:
 
-        url: https://github.com/Sl1zee/FrizzyShop.git
+        url: https://github.com/Sl1zee/FrizzyBot.git
         branch: main
 
         
