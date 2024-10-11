@@ -1,5 +1,5 @@
 import telebot
-from telebot impoort types
+from telebot import types
 
 bot = telebot.TeleBot('7939166697:AAFSCxD1ruXcbmYGcO4bEFCMnVl2MyK7R7U')
 
@@ -28,7 +28,7 @@ def handle_message(message):
         bot.send_message(message.chat.id, "Заказать ТУТ:", reply_markup=markup)             
 
     if message.text == "Сделать заказ с Poizon":
-        bot.send_message(message.chat.id, "Отправьте продавцу сообщеие с фото товара, артикул и укажите размер.")
+        bot.send_message(message.chat.id, "Отправьте продавцу сообщеие с фото товара, артикул и укажите размер.p")
         markup = types.InlineKeyboardMarkup()
         markup.add(types.InlineKeyboardButton('Сделать заказ с Poizon', url='https://t.me/LilFrizy'))
         bot.send_message(message.chat.id, "Заказать ТУТ:", reply_markup=markup)
